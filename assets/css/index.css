@@ -1,9 +1,26 @@
-.nav-bar {
-  background: #181818;
-  width: 60px;
-  height: 100%;
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&display=swap");
+.page {
   position: absolute;
-  top: 0;
-  z-index: 3;
-  min-width: 500px;
+  width: 100%;
+  height: 100%;
+  font-family: "Arizonia", cursive;
+}
+
+.top-tags {
+  bottom: auto;
+  top: 35px;
+}
+
+.tags {
+  color: #ffd700;
+  left: 120px;
+  opacity: 0.6;
+  position: absolute;
+  font-size: 16px;
+  letter-spacing: 2px;
+  bottom: 0;
+}
+
+.bottom-tag-html {
+  margin-left: -20px;
 }

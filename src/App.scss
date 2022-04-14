@@ -3,8 +3,8 @@ $primary-color:#bb00ff;
 @import 'animate.css';
 
 @font-face{
-  font-family: 'Helvetica Neue';
-  src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
+  font-family: 'Poppins';
+  src: url('./assets/fonts/Poppins-Medium.ttf') format('ttf');
 }
 
 @font-face{
@@ -19,6 +19,5 @@ $primary-color:#bb00ff;
 
 input,
 textarea {
-  font-family: 'Helvetica Neue';
-  
+  font-family: 'Poppins';
 }
