@@ -1,0 +1,79 @@
+.home-page {
+  font-family: "Poppins";
+}
+.home-page .text-zone {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40%;
+  max-height: 90%;
+}
+.home-page .text-zone h1 {
+  color: white;
+  font-size: 45px;
+  margin: 0;
+  font-family: "Poppins";
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+.home-page .text-zone h1::before {
+  content: "<h1>";
+  font-family: "Arizonia", cursive;
+  color: #c7d3d4;
+  letter-spacing: 2px;
+  position: absolute;
+  margin-top: -40px;
+  font-size: 18px;
+  opacity: 0.5;
+  left: 15px;
+}
+.home-page .text-zone h1::after {
+  content: "</h1>";
+  position: absolute;
+  margin-left: 30px;
+  font-family: "Arizonia", cursive;
+  color: #c7d3d4;
+  letter-spacing: 2px;
+  font-size: 18px;
+  opacity: 0.5;
+  margin-top: 20px;
+  animation: fadeOut 1s 1.7s backwards;
+  opacity: 0.5;
+}
+.home-page .text-zone h1 img {
+  right: 0;
+  width: 75px;
+  margin-bottom: -24px;
+  margin-right: -16px;
+  margin-left: -4px;
+  opacity: 0;
+  animation: rotateIn 1s linear both;
+  animation-delay: 1.2s;
+}
+.home-page .text-zone h2 {
+  color: rgba(216, 216, 216, 0.975);
+  opacity: 0.6;
+  font-weight: 500;
+  letter-spacing: 3px;
+  font-size: 12px;
+  font-family: sans-serif;
+  animation: fadeIn 1s 1.4s backwards;
+}
+.home-page .text-zone .flat-button {
+  padding: 1rem 1.5rem;
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  margin-top: 2rem;
+  font-size: 14px;
+  letter-spacing: 2px;
+  float: left;
+  animation: fadeIn 1s 1.8s backwards;
+  transition: 0.6s;
+  white-space: nowrap;
+}
+.home-page .text-zone .flat-button:hover {
+  background-color: white;
+  color: #510098;
+}

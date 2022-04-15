@@ -13,8 +13,8 @@ export const Home = () =>{
                     <br />
                     Web Developer
                 </h1>
-                <h2>Frontend Developer / Blockchain Enthusiast / Anitya</h2>
-                <Link to="/contact" className='flat-button'>CONTACT ME</Link>
+                <h2>Frontend Developer / Blockchain Enthusiast / Anitya (अनित्य) </h2>
+                    <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
         </div>
     )
