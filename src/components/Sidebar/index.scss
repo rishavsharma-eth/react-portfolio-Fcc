@@ -18,8 +18,8 @@
 
         img{
             display: block;
-            margin: 8px  auto 4px auto;
-            width: 24px;
+            margin: 8px  auto 0px auto;
+            width: 35px;
             height: auto;
         }
 
@@ -28,6 +28,7 @@
             color: #fff;
             font-size: 12px;
             font-family: 'poppins', 'Helvetica Neue';
+            margin-top: -10px;
         }
     }
 
@@ -53,7 +54,7 @@
             }
 
             &:hover {
-                color: #ffd700;
+                color: #c7d3d4ff;
 
                 svg {
                     opacity: 0;
@@ -98,7 +99,7 @@
 
         a.active{
             svg {
-                color: #ffd700;
+                color: #c7d3d4ff;
             }
         }   
     }
@@ -123,7 +124,7 @@
                 line-height: 16px;
 
                 &:hover svg{
-                    color: #ffd700;
+                    color: #c7d3d4ff;
                 }
             }
 

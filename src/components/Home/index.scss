@@ -1,0 +1,33 @@
+.home-page{
+    font-family:'Poppins';
+
+    .text-zone{
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 40%;
+        max-height: 90%;
+
+        &::before{
+            content: '<h1>';
+            font-family: 'Arizonia', cursive;
+            color:#c7d3d4;
+            letter-spacing: 2px;
+            position: absolute;
+        }
+        
+    }
+    h1{
+        color: white;
+        font-size: 45px;
+        margin: 0;
+        font-family: 'Poppins';
+        font-weight: 800;
+        letter-spacing: -3px;
+        img{
+            right: 0;
+            width: 32px;
+        }
+    }
+}
