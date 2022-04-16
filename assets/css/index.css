@@ -1,79 +1,152 @@
-.home-page {
-  font-family: "Poppins";
-}
-.home-page .text-zone {
-  position: absolute;
-  left: 10%;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 40%;
-  max-height: 90%;
-}
-.home-page .text-zone h1 {
-  color: white;
-  font-size: 45px;
-  margin: 0;
-  font-family: "Poppins";
-  font-weight: 800;
-  letter-spacing: -1px;
-}
-.home-page .text-zone h1::before {
-  content: "<h1>";
-  font-family: "Arizonia", cursive;
-  color: #c7d3d4;
-  letter-spacing: 2px;
-  position: absolute;
-  margin-top: -40px;
-  font-size: 18px;
-  opacity: 0.5;
-  left: 15px;
-}
-.home-page .text-zone h1::after {
-  content: "</h1>";
-  position: absolute;
-  margin-left: 30px;
-  font-family: "Arizonia", cursive;
-  color: #c7d3d4;
-  letter-spacing: 2px;
-  font-size: 18px;
-  opacity: 0.5;
-  margin-top: 20px;
-  animation: fadeOut 1s 1.7s backwards;
-  opacity: 0.5;
-}
-.home-page .text-zone h1 img {
-  right: 0;
-  width: 75px;
-  margin-bottom: -24px;
-  margin-right: -16px;
-  margin-left: -4px;
+.text-animate {
+  display: inline-block;
   opacity: 0;
-  animation: rotateIn 1s linear both;
+  animation: bounceIn 1s 1s forwards;
+  min-width: 10px;
+}
+
+.text-animate-hover {
+  min-width: 10px;
+  animation-fill-mode: both;
+  display: inline-block;
+}
+.text-animate-hover:hover {
+  animation: rubberBand 2s;
+  color: yellow;
+}
+
+.text-animate._1 {
+  animation-delay: 0.1s;
+}
+
+.text-animate._2 {
+  animation-delay: 0.2s;
+}
+
+.text-animate._3 {
+  animation-delay: 0.3s;
+}
+
+.text-animate._4 {
+  animation-delay: 0.4s;
+}
+
+.text-animate._5 {
+  animation-delay: 0.5s;
+}
+
+.text-animate._6 {
+  animation-delay: 0.6s;
+}
+
+.text-animate._7 {
+  animation-delay: 0.7s;
+}
+
+.text-animate._8 {
+  animation-delay: 0.8s;
+}
+
+.text-animate._9 {
+  animation-delay: 0.9s;
+}
+
+.text-animate._10 {
+  animation-delay: 1s;
+}
+
+.text-animate._11 {
+  animation-delay: 1.1s;
+}
+
+.text-animate._12 {
   animation-delay: 1.2s;
 }
-.home-page .text-zone h2 {
-  color: rgba(216, 216, 216, 0.975);
-  opacity: 0.6;
-  font-weight: 500;
-  letter-spacing: 3px;
-  font-size: 12px;
-  font-family: sans-serif;
-  animation: fadeIn 1s 1.4s backwards;
+
+.text-animate._13 {
+  animation-delay: 1.3s;
 }
-.home-page .text-zone .flat-button {
-  padding: 1rem 1.5rem;
-  border: 1px solid white;
-  color: white;
-  text-decoration: none;
-  margin-top: 2rem;
-  font-size: 14px;
-  letter-spacing: 2px;
-  float: left;
-  animation: fadeIn 1s 1.8s backwards;
-  transition: 0.6s;
-  white-space: nowrap;
+
+.text-animate._14 {
+  animation-delay: 1.4s;
 }
-.home-page .text-zone .flat-button:hover {
-  background-color: white;
-  color: #510098;
+
+.text-animate._15 {
+  animation-delay: 1.5s;
+}
+
+.text-animate._16 {
+  animation-delay: 1.6s;
+}
+
+.text-animate._17 {
+  animation-delay: 1.7s;
+}
+
+.text-animate._18 {
+  animation-delay: 1.8s;
+}
+
+.text-animate._19 {
+  animation-delay: 1.9s;
+}
+
+.text-animate._20 {
+  animation-delay: 2s;
+}
+
+.text-animate._21 {
+  animation-delay: 2.1s;
+}
+
+.text-animate._22 {
+  animation-delay: 2.2s;
+}
+
+.text-animate._23 {
+  animation-delay: 2.3s;
+}
+
+.text-animate._24 {
+  animation-delay: 2.4s;
+}
+
+.text-animate._25 {
+  animation-delay: 2.5s;
+}
+
+.text-animate._26 {
+  animation-delay: 2.6s;
+}
+
+.text-animate._27 {
+  animation-delay: 2.7s;
+}
+
+.text-animate._28 {
+  animation-delay: 2.8s;
+}
+
+.text-animate._29 {
+  animation-delay: 2.9s;
+}
+
+.text-animate._30 {
+  animation-delay: 3s;
+}
+
+.text-animate._31 {
+  animation-delay: 3.1s;
+}
+
+.text-animate._32 {
+  animation-delay: 3.2s;
+}
+
+.text-animate._33 {
+  animation-delay: 3.3s;
+}
+
+.text-animate._34 {
+  animation-delay: 3.4s;
 }

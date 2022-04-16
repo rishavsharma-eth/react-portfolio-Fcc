@@ -8,6 +8,7 @@
         transform: translateY(-50%);
         width: 40%;
         max-height: 90%;
+        cursor:default;
 
         h1{
             color: white;
@@ -60,7 +61,7 @@
             opacity: 0.6;
             font-weight: 500;
             letter-spacing: 3px;
-            font-size: 12px;
+            font-size: 14px;
             font-family: sans-serif;
             animation: fadeIn 1s 1.4s backwards;
         }
