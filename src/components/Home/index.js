@@ -13,13 +13,12 @@ export const Home = () =>{
     const nameArray = ['i', 's', 'h' , 'a', 'v'];
     const jobArray = ['W','e','b',' ','D','e','v','e','l','o','p','e','r'];
 
-    console.log("this is good")
+
     useEffect(() => {
          return setTimeout( () => {
              setLetterClass('text-animate-hover')
         }, 1000);
       }, []);
-      console.log("this is good 2")
 
     return(
         <div className="container home-page">
