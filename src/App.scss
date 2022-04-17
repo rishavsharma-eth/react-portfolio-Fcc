@@ -1,6 +1,8 @@
-$primary-color:#510098;
+$primary-color:white;
+// secondary-color:#8a1eea
 
 @import 'animate.css';
+@import 'loaders.css/src/animations/ball-scale-ripple-multiple.scss';
 
 @font-face{
   font-family: 'Poppins';
@@ -20,4 +22,17 @@ $primary-color:#510098;
 input,
 textarea {
   font-family: 'Poppins';
+}
+
+.loader-active{
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 70px;
+  height: 50px;
+  animation: fadeOut 1s 1s forwards;
 }

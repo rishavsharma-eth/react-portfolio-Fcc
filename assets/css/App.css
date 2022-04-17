@@ -1,4 +1,19 @@
 @import 'animate.css';
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font: 600 11px/1.4 "Poppins", "sans-serif";
+  color: #444;
+  background: #4c008e;
+  overflow: hidden;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 @font-face {
   font-family: "Poppins";
   src: url("./assets/fonts/Poppins-Medium.ttf") format("ttf");
