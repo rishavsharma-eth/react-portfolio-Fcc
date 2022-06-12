@@ -9,6 +9,9 @@
       name="description"
       content="Rishav Sharma - Front End Developer"
     />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
     <link rel="apple-touch-icon" href="../src/assets/images/favicon/favicon-16x16.png" />
     
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
@@ -17,12 +20,15 @@
   <body>
     <div id="root"></div>
 
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="text/javascript">
-      ;(function () {
-        emailjs.init('PRIVATE_KEY');
-      }) ();
+
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
     </script>
-    
+    <script type="text/javascript">
+      (function(){
+          emailjs.init("user_F72euZcMgyp5B8MGfnfm9");
+      })();
+    </script>
   </body>
 </html>
