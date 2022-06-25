@@ -1,6 +1,7 @@
-$primary-color:white;
-// secondary-color:#8a1eea
-
+:root {
+  --primary-color: #8a1eea;
+}
+    
 @import 'animate.css';
 @import 'loaders.css/src/animations/ball-scale-ripple-multiple.scss';
 
@@ -21,7 +22,7 @@ $primary-color:white;
 
 input,
 textarea {
-  font-family: 'Poppins';
+  font-family: "Poppins", "Sans-serif";
 }
 
 .loader-active{

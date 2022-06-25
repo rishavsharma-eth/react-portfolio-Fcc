@@ -51,8 +51,8 @@
 .contact-page
 {
     font-family: 'Poppins', 'Sans-serif';
-    // color: #8a1eea;
-    color: #e6db00;
+    color: white;
+    // color: #e6db00;
     position: relative;
 
     .text-zone{
@@ -136,8 +136,8 @@
         }
         .text-animate-hover{
             &:hover{
-                // color: #8a1eea;
-                color: white;
+                color: #8a1eea;
+                // color: white;
             }
         }
 

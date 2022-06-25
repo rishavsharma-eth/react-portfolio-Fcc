@@ -1,9 +1,81 @@
-.contact{
-    
-    .alphabet{
-        color: #e6db00;
-        &:hover{
-            color: white;
+.contact-page{
+    // display: flex;
+    // flex-direction: row;
+    .left{
+        form{
+            input, textarea{
+                border: none;
+                outline: none;
+                box-sizing: border-box;
+                padding:0 2rem;
+                margin-bottom: 2rem;
+                font-size: 16px;
+                color: white;
+                background-color: #ffffff2d;
+
+                &::placeholder{
+                    color: rgba(255, 255, 255, 0.553);
+                }
+            }
+            textarea{
+                width: 100%;
+                padding: 1rem 20px;
+                font-size: 16px;
+            }
+            
+            input[type="text"],
+            input[type="email"]{
+                height: 5rem;
+                width: 100%;
+            }
+
+            input[type="submit"]{
+                padding: 1rem 1.5rem;
+                background-color: #8a1eea;
+                color: white;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+
+            input.half{
+                width: 49%;
+                &:first-of-type{
+                    margin-right: 2%;
+                }
+            }
+        }
+    }
+
+    .right{
+        float: right;
+        height: 113%;
+        margin-right: 4rem;
+        width: 49%;
+        position: relative;
+
+        .right-info{
+            position: absolute;
+            z-index: 9999;
+            left: 5px;
+            top: 9rem;
+            font-size: 1.5rem;
+            background-color: rgba(0, 0, 0, 0.89);
+            width: max-content;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            font-weight: 400;
+            opacity: 0;
+            animation: fadeIn 1s 1.5s;
+            animation-fill-mode: forwards;
+
+            span{
+                color: #a541fd;
+            }
+        }
+        
+
+        .leaflet-container{
+            height: 90%;
         }
     }
 }
