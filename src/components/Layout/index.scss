@@ -48,7 +48,8 @@
 
 
 .about-page,
-.contact-page
+.contact-page,
+.portfolio-page
 {
     font-family: 'Poppins', 'Sans-serif';
     color: white;
@@ -64,6 +65,7 @@
         text-align: justify;
         vertical-align: middle;
         max-height: 90%;
+    }
 
         h1{
             font-size: 6rem;
@@ -143,7 +145,5 @@
 
         span{
             margin-top: 0;
-        }
-    }
-    
+        }   
 }
