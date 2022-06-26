@@ -24,15 +24,16 @@ const Portfolio = () => {
             portfolio.map((item, id)=>{
               return(
                 <div className='imageBox' key={id}>
-                  <a href="https:google.com">
                     <img 
                         src={item.cover}
                         alt="portfolioCoverImg"
                         className="portfolioImg"
                     />
-                  </a>
-                  <h3>{item.title}</h3>
-                  <p>{item.description}</p>
+                  <div className="projectInfo">
+                    <h3>{item.title}</h3>
+                    <p>{item.description}</p>
+                    <button onClick={()=> window.open(item.url)}>View</button>
+                  </div>
                 </div>
               )
             })
