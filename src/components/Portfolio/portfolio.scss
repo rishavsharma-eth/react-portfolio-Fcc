@@ -10,7 +10,11 @@
         margin-left: 100px;
         margin-top: 100px;
     }
-    .images-container{
+    .imagesOut{
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    .imagesContainer{
         display: flex;
         gap: 2rem;
         padding-bottom: 100px;
@@ -45,7 +49,6 @@
                 rgba(0,0,0,0.5) 0,
                 rgba(0,0,0,1)
             );
-
             h3{
                 color: white;
                 font-size: 1.8rem;
@@ -55,8 +58,6 @@
                 line-height: 1.8rem;
             }
             p{
-                // margin-top: 0;
-                // margin-bottom: 0;
                 color: white;
                 font-size: 14px;
                 font-weight: 700;

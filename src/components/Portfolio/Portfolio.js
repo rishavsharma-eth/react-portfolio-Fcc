@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Loader from 'react-loaders';
 import { AnimatedLetters } from '../AnimatedLetters';
+import RenderPortfolio from '../RenderPortfolio/RenderPortfolio';
 import portfolioData from "./../../data/portfolio.json"
 import "./portfolio.scss";
 
@@ -17,30 +18,7 @@ const Portfolio = () => {
     }
   },[])
 
-  const renderPortfolio = (portfolio) => {
-    return(
-      <div className='images-container'>
-          {
-            portfolio.map((item, id)=>{
-              return(
-                <div className='imageBox' key={id}>
-                    <img 
-                        src={item.cover}
-                        alt="portfolioCoverImg"
-                        className="portfolioImg"
-                    />
-                  <div className="projectInfo">
-                    <h3>{item.title}</h3>
-                    <p>{item.description}</p>
-                    <button onClick={()=> window.open(item.url)}>View</button>
-                  </div>
-                </div>
-              )
-            })
-          }
-      </div>
-    )
-  }
+
 
   return (
     <>
@@ -51,7 +29,7 @@ const Portfolio = () => {
             strArray={"Portfolio".split("")} 
             idx={15} />
         </h1>
-        <div> {renderPortfolio(portfolioData.portfolio)}</div>
+        <div className='imagesOut'> {RenderPortfolio(portfolioData.portfolio)}</div>
       </div>
       <Loader type="ball-scale-ripple-multiple" />
     </>
