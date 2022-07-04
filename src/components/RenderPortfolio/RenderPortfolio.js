@@ -9,12 +9,12 @@ const RenderPortfolio = (portfolio) => {
               return(
                 <div className='imageBox' key={id}>
                     <img 
-                        src={item.cover}
+                        src={item.image}
                         alt="portfolioCoverImg"
                         className="portfolioImg"
                     />
                   <div className="projectInfo">
-                    <h3>{item.title}</h3>
+                    <h3>{item.name}</h3>
                     <p>{item.description}</p>
                     <button onClick={()=> window.open(item.url)}>View</button>
                   </div>

@@ -1,0 +1,31 @@
+.login{
+    position: relative;
+    left: 10%;
+    top: 100px;
+
+    h1{
+        font-family: 'Poppins', sans-serif;
+        font-size: 5rem;
+        color: white;
+    }
+    button{
+        position: absolute;
+        top: 100px;
+        padding: 0px 20px;
+        height: 34px;
+        outline: none;
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: white;
+        background: transparent;
+        border: 1px solid #8a1eea;
+        border-radius: 2px;
+        font-family: 'Poppins', sans-serif;
+        transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+        &:hover{
+            background: #8a1eea;
+            border: 1px solid rgba(245, 245, 245, 0.454);
+        }
+    }
+}

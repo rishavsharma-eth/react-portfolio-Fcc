@@ -6,6 +6,7 @@ import { About } from './components/About';
 import { Contact } from './components/Contact/Contact';
 import { Helmet } from 'react-helmet';
 import Portfolio  from './components/Portfolio/Portfolio';
+import Dashboard from './components/Dashboard/Dashboard';
  
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path='about' element={<About />} />
           <Route path='contact' element={<Contact />} />
           <Route path='portfolio' element={<Portfolio />} />
+          <Route path='dashboard' element={<Dashboard />} />
         </Route>
       </Routes>
     </>
