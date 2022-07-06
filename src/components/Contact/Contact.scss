@@ -1,47 +1,90 @@
 .contact-page{
-    // display: flex;
-    // flex-direction: row;
     .left{
-        form{
-            input, textarea{
+        // form{
+        //     input, textarea{
+        //         border: none;
+        //         outline: none;
+        //         box-sizing: border-box;
+        //         padding:0 2rem;
+        //         margin-bottom: 2rem;
+        //         font-size: 16px;
+        //         color: white;
+        //         background-color: #ffffff2d;
+
+        //         &::placeholder{
+        //             color: rgba(255, 255, 255, 0.553);
+        //         }
+        //     }
+        //     textarea{
+        //         width: 100%;
+        //         padding: 1rem 20px;
+        //         font-size: 16px;
+        //     }
+            
+        //     input[type="text"],
+        //     input[type="email"]{
+        //         height: 5rem;
+        //         width: 100%;
+        //     }
+
+        //     input[type="submit"]{
+        //         padding: 1rem 1.5rem;
+        //         background-color: #8a1eea;
+        //         color: white;
+        //         font-weight: 500;
+        //         text-transform: uppercase;
+        //     }
+
+        //     input.half{
+        //         width: 49%;
+        //         &:first-of-type{
+        //             margin-right: 2%;
+        //         }
+        //     }
+        // }
+        .formContact{
+            display: grid;
+            row-gap: 1.5rem;
+            .fcInput,
+            .fcInputBox>textarea,
+            .fcLabel,
+            .fcBtn>input{
                 border: none;
                 outline: none;
-                box-sizing: border-box;
-                padding:0 2rem;
-                margin-bottom: 2rem;
-                font-size: 16px;
-                color: white;
-                background-color: #ffffff2d;
-
+                font-family: 'Poppins', sans-serif;
+                font-size:medium;
+            }
+            .fcInputBox{
+                width: 250px;
+                height: 50px;
+                position: relative;
+            }
+            .fcShadow{
+                position: absolute;
+                background-color: rgb(255, 255, 255);
+                width: 100%;
+                height: 100%;
+            }
+            .fcInput,
+            .fcInputBox>textarea{
+                position: absolute;
+                border: 2.5px solid var(--primary-color);
+                background-color: #ddbbfb;
+                width: 100%;
+                height: 100%;
+                z-index: 10;
+                padding: 8px;
+                transition: transform 0.3s;
                 &::placeholder{
-                    color: rgba(255, 255, 255, 0.553);
+                    color: #a541fd;
+                    opacity: .5;
                 }
             }
-            textarea{
-                width: 100%;
-                padding: 1rem 20px;
-                font-size: 16px;
-            }
-            
-            input[type="text"],
-            input[type="email"]{
-                height: 5rem;
-                width: 100%;
-            }
-
-            input[type="submit"]{
-                padding: 1rem 1.5rem;
-                background-color: #8a1eea;
-                color: white;
-                font-weight: 500;
-                text-transform: uppercase;
-            }
-
-            input.half{
-                width: 49%;
-                &:first-of-type{
-                    margin-right: 2%;
-                }
+            .fcLabel{
+                position: absolute;
+                z-index: 100;
+                top: 16px;
+                left: 10px;
             }
         }
     }

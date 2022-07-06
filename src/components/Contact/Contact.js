@@ -48,13 +48,38 @@ export function Contact(){
             I am interested in freelance and full time opportunities - especially in Web3. However, if you have other request or question,
             don't hesitate to contact me using below form either.
           </p>
-            <form action="" onSubmit={sendEmail} ref={refForm}>
+            {/* <form action="" onSubmit={sendEmail} ref={refForm}>
               <input className="half" type="text" placeholder="Name" name="user_name" required/>
               <input className="half" type="email" placeholder="Email" name="user_email" required />
               <input type="text" placeholder="Subject" required />
               <textarea name="message" id="" rows="4" placeholder="Message" required></textarea>
               <input type="submit" />
-            </form>
+            </form> */}
+          <form action="" className="formContact">
+            <div className="fcInputBox">
+              <input type="text" className="fcInput" placeholder="Name" />
+              <label htmlFor="" className="fcLabel">Enter Name</label>
+              <div className="fcShadow"></div>
+            </div>
+            <div className="fcInputBox">
+              <input type="text" className="fcInput" placeholder="Email" />
+              <label htmlFor="" className="fcLabel">Enter Email</label>
+              <div className="fcShadow"></div>
+            </div>
+            <div className="fcInputBox">
+              <input type="text" className="fcInput" placeholder="Subject" />
+              <label htmlFor="" className="fcLabel">Subject</label>
+              <div className="fcShadow"></div>
+            </div>
+            <div className="fcInputBox">
+              <textarea type="text" className="fcInput" placeholder="Message" ></textarea>
+              <label htmlFor="" className="fcLabel">Message</label>
+              <div className="fcShadow"></div>
+            </div>
+            <div className="fcBtn">
+              <input type="submit" value="Submit" />
+            </div>
+          </form>
         </div>
 
         <div className="right">
@@ -71,7 +96,7 @@ export function Contact(){
             />
             <Marker position={[28.6139, 77.2090]}>
               <Popup>
-                Not the precise location to knock but mail me for <br /> a cup of coffee. 
+                Not the precise location to knock but you can mail me for <br /> a cup of coffee. 
               </Popup>
             </Marker>
           </MapContainer>
